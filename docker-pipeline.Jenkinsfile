@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'jubin-image:latest'
+        IMAGE_NAME = 'jubinraj/jubin-jenkins:latest'
     }
 
     stages {
