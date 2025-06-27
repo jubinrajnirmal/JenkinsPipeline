@@ -5,9 +5,6 @@ pipeline {
         IMAGE_NAME = 'jubinraj/jubin-jenkins:latest'
     }
 
-    triggers {
-        githubPush()  
-    }
 
     stages {
         stage('Jubin - Build Docker Image') {
